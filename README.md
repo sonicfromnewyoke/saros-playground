@@ -40,8 +40,10 @@ from the root
 ```sh
 cargo run -p playground swap-amm
 ```
+
 output:
-```
+
+```log
 Program SSwapUtytfBdBn1b9NUGG6foMVPtcWgpRU32HToDUZr invoke [1]
 Program log: Instruction: Swap
 Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
@@ -64,8 +66,10 @@ Program SSwapUtytfBdBn1b9NUGG6foMVPtcWgpRU32HToDUZr success
 ```sh
 cargo run -p playground swap-dlmm
 ```
+
 output:
-```
+
+```log
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE invoke [1]
 Program log: Instruction: Swap
 Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
@@ -85,7 +89,7 @@ Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE success
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE invoke [2]
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE consumed 3503 of 1258136 compute units
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE success
-rogram 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE invoke [2]
+Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE invoke [2]
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE consumed 3503 of 1252114 compute units
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE success
 Program 1qbkdrr3z4ryLA7pZykqxvxWPoeifcVKo6ZG9CfkvVE invoke [2]
