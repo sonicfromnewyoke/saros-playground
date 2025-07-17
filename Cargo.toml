@@ -1,0 +1,39 @@
+[workspace]
+members = ["playground", "programs", "sdk/*"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+readme = "README.md"
+license-file = "LICENSE"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+arrayref = "0.3.9"
+clap = "4.5.41"
+mollusk-svm = "0.4.0"
+mollusk-svm-programs-memo = "0.4.0"
+mollusk-svm-programs-token = "0.4.0"
+solana-account = "2.2"
+solana-instruction = "2.2"
+solana-keypair = "2.2"
+solana-log-collector = "2.2"
+solana-program-entrypoint = "2.2"
+solana-program-error = "2.2"
+solana-program-pack = "2.2"
+solana-pubkey = "2.2"
+solana-rent = "2.2"
+solana-sdk-ids = "2.2"
+solana-signer = "2.2"
+spl-associated-token-account-client = "2.0.0"
+spl-memo-client = "0.1.0"
+spl-token-2022 = { version = "6.0.0", features = ["no-entrypoint"] }
+spl-token-interface = "0.0.0"
+spl-token-swap = { git = "https://github.com/sonicfromnewyoke/solana-program-library.git", rev = "3788944b98531fca219393f9a53972f036a52f5b", features = [
+    "no-entrypoint",
+] }
+
+saros-amm-sdk = { path = "sdk/amm" }
+saros-dlmm-sdk = { path = "sdk/dlmm" }
+saros-programs = { path = "programs" }

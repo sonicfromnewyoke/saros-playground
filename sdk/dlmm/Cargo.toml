@@ -1,0 +1,15 @@
+[package]
+name = "saros-dlmm-sdk"
+edition = { workspace = true }
+version = { workspace = true }
+readme = { workspace = true }
+license-file = { workspace = true }
+publish = { workspace = true }
+
+[dependencies]
+arrayref = { workspace = true }
+saros-programs = { workspace = true, features = ["dlmm"] }
+solana-instruction = { workspace = true }
+solana-program-error = { workspace = true }
+solana-program-pack = { workspace = true }
+solana-pubkey = { workspace = true }

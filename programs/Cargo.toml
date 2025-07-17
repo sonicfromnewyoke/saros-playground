@@ -1,0 +1,20 @@
+[package]
+name = "saros-programs"
+edition = { workspace = true }
+version = { workspace = true }
+readme = { workspace = true }
+license-file = { workspace = true }
+publish = { workspace = true }
+
+[features]
+default = ["amm", "dlmm"]
+amm = ["dep:spl-token-swap"]
+dlmm = []
+
+[dependencies]
+mollusk-svm = { workspace = true }
+solana-account = { workspace = true }
+solana-pubkey = { workspace = true }
+spl-associated-token-account-client = { workspace = true }
+spl-token-interface = { workspace = true }
+spl-token-swap = { workspace = true, optional = true }
